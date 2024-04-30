@@ -1,4 +1,4 @@
 from agage_archive.run import run_all
 
 if __name__ == "__main__":
-    run_all("decc", species = ["ch4"])
+    run_all("decc", species = ["ch4"], baseline=False, monthly=False)
