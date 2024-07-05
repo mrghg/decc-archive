@@ -56,7 +56,29 @@ def replace_repeatability(site, species):
     # Save the new file
     ds.to_netcdf(fname)
 
+def replace_inlet_height(site, species):
 
+    paths = Paths("decc")
+
+    fname = data_file_path(f"DECC-GCMD_{site.upper()}_{species.lower()}.nc", "decc", sub_path=paths.md_path)
+
+    with xr.open_dataset(fname, engine="netcdf4") as f:
+        ds = f.load()
+
+    if(site == "BSD"):
+        ds['inlet_height'].loc[ds["time"] < pd.to_datetime("2017-03-17 15:00")] = 108
+        ds['inlet_height'].loc[ds["time"] >= pd.to_datetime("2017-03-17 15:00")] = 248
+    if(site == "HFD"):
+        ds['inlet_height'].values[:] = 100
+    if(site == "RGL"):
+        ds['inlet_height'].values[:] = 90
+    if(site == "TAC"):
+        ds['inlet_height'].loc[ds["time"] < pd.to_datetime("2017-03-09 15:00")] = 100
+        ds['inlet_height'].loc[ds["time"] >= pd.to_datetime("2017-03-09 15:00")] = 185
+    
+    # Save the new file
+    ds.to_netcdf(fname)
+    
 def preprocess():
 
     sites = ["BSD", "HFD", "RGL"]
@@ -76,6 +98,10 @@ def preprocess():
 
             # Replace repeatability
             replace_repeatability(site, sp)
+            # Need to manually enter inlet_height because it isn't properly exported by gccalc1
+            replace_inlet_height(site, sp)
+
+
 
 
 if __name__ == "__main__":
