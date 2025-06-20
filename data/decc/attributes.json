@@ -1,9 +1,10 @@
 {
-    "version": "20250430",
+    "version": "20250620",
     "doi": "See dataset collection record page (https://catalogue.ceda.ac.uk/uuid/f5b38d1654d84b03ba79060746541e4f/)",
     "product_type": "",
     "frequency": "",
     "instrument_selection": "",
+    "limit_of_detection_comment": "Data points recorded as zero mole fraction indicate that the mole fraction of a given species within the sample was below the limit of detection for the analyser. They should not be interpreted as implying that the species was not present in the atmosphere.",
     "data_acknowledgements": "Please acknowledge that this work is funded by the UK Government Department for Energy Security and Net Zero (DESNZ) under contracts TRN1028/06/2015, TRN1537/06/2018, TRN5488/11/2021 and prj_1604 to the University of Bristol and through the National Measurement System at the National Physical Laboratory.",
     "data_citation_1": "Stanley, K. M., Grant, A., O'Doherty, S., Young, D., Manning, A. J., Stavert, A. R., Spain, T. G., Salameh, P. K., Harth, C. M., Simmonds, P. G., Sturges, W. T., Oram, D. E., and Derwent, R. G.: Greenhouse gas measurements from a UK network of tall towers: technical description and first results, Atmospheric Measurement Techniques, 11, 1437–1458, https://doi.org/10.5194/amt-11-1437-2018, 2018."
 }
