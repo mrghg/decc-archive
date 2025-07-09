@@ -1,0 +1,110 @@
+{
+    "BSD": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "HFD": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "JBO": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "RGL": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "SIS": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "TAC": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "GCMD": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "TTA": {
+        "n2o": {
+            "GCMD": {
+                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    }
+}

@@ -5,6 +5,5 @@
 # All data will be processed until the general release date unless specified in the table
 # x indicates that no part of the record will be processed
 # General release date: 2025-04-01 00:00
-Species,JBO,RGL,TAC,TTA
-co2,,,,
-ch4,,,,
+Species,TAC
+sf6,
