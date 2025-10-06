@@ -14,5 +14,6 @@
     "Picarro-G5310": "read_nc",
     "Picarro-PI5310": "read_nc",
     "LGR": "read_nc",
+    "Aeris": "read_nc",
     "GCTOFMS": "read_nc"
 }
