@@ -5,7 +5,6 @@
 # All data will be processed until the general release date unless specified in the table
 # x indicates that no part of the record will be processed
 # General release date: 2025-04-01 00:00
-Species,BSD,HFD,SIS,IVG
-co2,2021-08-11 00:00,,,
-ch4,2021-08-11 00:00,,,
-co,2021-08-11 00:00,,x,
+Species,IVG
+n2o,
+co,
