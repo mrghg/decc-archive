@@ -1,0 +1,7 @@
+# Mole fraction data during the ranges in this worksheet will be excluded
+# Date format must by YYYY-MM-DD HH:MM
+# Make sure that the cell format is text rather than Excel's date format
+Species,Instrument,Start,End,Notes,Combined_only
+co,Picarro-G2401,2025-05-15 16:00,2025-07-02 08:59,Use PI5310,Y
+co,Picarro-G2401,2025-07-09 12:00,2025-09-11 11:59,Use PI5310,Y
+co,Picarro-G2401,2025-09-17 10:00,2100-01-01 00:00,Use PI5310,Y
