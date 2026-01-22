@@ -41,7 +41,7 @@
             }
         },
         "co": {
-            "Picarro-G5310": {
+            "Picarro-PI5310": {
                 "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
             },
             "Picarro-G2401": {
