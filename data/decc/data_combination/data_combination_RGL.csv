@@ -5,5 +5,6 @@
 # An x indicates that this instrument should not be included in timeseries for this species
 # Date format should be YYYY-MM-DD HH:MM
 # NOTE: ENSURE CELLS ARE FORMATTED AS TEXT, NOT DATES. IF PASTING VALUES ENSURE YOU "MATCH DESTINATION FORMATTING" TO PREVENT EXCEL FROM CONVERTING TO DATE AND TIME
-Species,GCMD start,GCMD end,Picarro-G5310 start,Picarro-G5310 end
-n2o,,,,
+Species,GCMD start,GCMD end,GCMS-Medusa start,GCMS-Medusa end,Picarro-G5310 start,Picarro-G5310 end
+n2o,,,x,x,,,
+sf6,,,,,x,x,
