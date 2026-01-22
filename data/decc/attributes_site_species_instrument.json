@@ -1,8 +1,8 @@
 {
     "BSD": {
         "n2o": {
-            "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            "Picarro-G5310": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
             }
         },
         "co": {
@@ -16,8 +16,28 @@
     },
     "HFD": {
         "n2o": {
+            "Picarro-G5310": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
+            }
+        },
+        "sf6": {
             "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+                "instrument_comment": "The HFD CGMD has a baseline offset for sf6 relative to the other DECC network sites. The reasons for this offset are currently under investigation. The magnitude of the offset is variable in time and can be up to 0.2 ppb (with the HFD GCMD data measuring lower mole fractions than other sites within the network). Please contact the data owner for further details before using this data."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            },
+            "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "IVG": {
+        "n2o": {
+            "Picarro-G5310": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
             }
         },
         "co": {
@@ -31,8 +51,8 @@
     },
     "JBO": {
         "n2o": {
-            "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            "Aeris": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
             }
         },
         "co": {
@@ -44,10 +64,32 @@
             }
         }
     },
+    "MHD": {
+        "cfc-11": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        }
+    },
     "RGL": {
+        "cfc-11": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        },
+        "cfc-12": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        },
+        "ccl4": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency with significantly better precisions and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        },
         "n2o": {
-            "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            "Picarro-G5310": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
             }
         },
         "co": {
@@ -60,11 +102,6 @@
         }
     },
     "SIS": {
-        "n2o": {
-            "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
-            }
-        },
         "co": {
             "Picarro-G5310": {
                 "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
@@ -75,9 +112,24 @@
         }
     },
     "TAC": {
+        "cfc-11": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        },
+        "cfc-12": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        },
+        "ccl4": {
+            "GCMS-Medusa": {
+                "instrument_comment": "WARNING: For this species, AGAGE MD measurements are of higher frequency with significantly better precisions and also appear internally more consistent than AGAGE Medusa measurements. Please discuss with data owner before use."
+            }
+        },
         "n2o": {
-            "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
+            "LGR": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
             }
         },
         "co": {
@@ -93,16 +145,23 @@
         }
     },
     "TTA": {
-        "n2o": {
-            "GCMD": {
-                "instrument_comment": "As of 2025-03-07, the mean offset between the N2O mole fraction assigned to AGAGE tertiary tanks at Mace Head on the WMO-X2006A scale and the SIO-16 scale was -0.41 ppb, with the values on the WMO-X2006A scale being lower than those on the SIO-16 scale. The SIO-16 values were assigned at SIO, while the WMO-X2006A values were assigned at EMPA. This offset has been used to convert any GC-ECD measurements originally made on the SIO-16 scale onto the WMO-X2006A scale."
-            }
-        },
         "co": {
             "Picarro-G5310": {
                 "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
             },
             "Picarro-G2401": {
+                "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
+            }
+        }
+    },
+    "VTO": {
+        "n2o": {
+            "Picarro-G5310": {
+                "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
+            }
+        },
+        "co": {
+            "Picarro-G5310": {
                 "instrument_comment": "CO is known to exhibit non-negligible drift in the calibration standard and target cylinders used within the network. Drifts of up to 12 ppb have been observed in some DECC network cylinders, while other cylinders have been relatively stable over time. Biases on the order of 10 ppb may be present in the data archived here. Please contact the data owner for further details."
             }
         }
