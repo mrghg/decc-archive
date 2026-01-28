@@ -1,6 +1,7 @@
 {
     "ALE": "read_ale_gage",
     "GAGE": "read_ale_gage",
+    "GCPDD": "read_nc",
     "GCMD": "read_nc",
     "GCMS-ADS": "read_nc",
     "GCECD": "read_nc",
