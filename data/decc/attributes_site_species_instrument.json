@@ -154,7 +154,7 @@
             }
         }
     },
-    "VTO": {
+    "VTI": {
         "n2o": {
             "Picarro-G5310": {
                 "instrument_comment": "N2O data measured on optical instruments within the DECC network are on the WMO-X2006A scale. These have been converted to the SIO-16 scale in the combined files for consistency with the GCMD data. The conversion factor used is derived from a fit of NOAA/AGAGE ratio from Paul Krummel CCGG flask comparisons presented at the AGAGE72 meeting (2000-2025 data)."
