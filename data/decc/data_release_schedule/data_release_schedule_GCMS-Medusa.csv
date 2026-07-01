@@ -6,7 +6,7 @@
 # x indicates that no part of the record will be processed
 # General release date: 2026-04-01 00:00
 Species,MHD,TAC,RGL
-hfc-23,,,
+hfc-23,,,x
 hfc-32,,,
 hfc-125,,,
 hfc-134a,,,
